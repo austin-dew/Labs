@@ -1,0 +1,51 @@
+body {
+    background: #78CEE9;
+    color:white;
+    font-size: 16px;
+    font-family: "Open sans";
+}
+
+body > section {
+    border: 5px solid lime;
+    margin: 25px auto;
+    width: 600px;
+    padding: 25px 40px;
+}
+
+section > h1 {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+
+nav > ul > li:first-child > a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    border-right: 2px solid gray;
+    margin: 0 5px;
+    padding-right: 15px;
+}
+
+li:last-child {
+    border: none;
+}
+
+li > a {
+    color: limegreen;
+}
+
+section > img {
+    width: 30%;
+    margin: 15px;
+    float: right;
+}
