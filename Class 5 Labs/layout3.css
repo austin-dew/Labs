@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgoldenrodyellow;
+}
+
+header,footer {
+    clear: both;
+    height: 100px;
+}
+
+section {
+    height: 600px;
+}
+
+section > article {
+    border: 2px solid cyan;
+    width: 20%;
+    height: 600px;
+    float: right;
+}
+
+#second {
+    width: 40%;
+}

@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #4c4c4c;
+}
+
+section {
+    border: 2px solid gold
+}
+
+header,footer {
+    border: 2px solid silver;
+    clear: both;
+}
+
+/*Desktop*/
+@media (min-width: 1025px) {
+    header,footer {
+        border: 2px solid silver;
+        height: 200px;
+        clear: both;
+    }
+    
+    section {
+        background: lightblue;
+        height: 400px;
+        width: 33.3333%;
+        float: left;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 501px) and (max-width: 1024px) {
+    header,footer {
+        height: 200px;
+    }
+
+    section:first-of-type {
+        background: black;
+        height: 1200px;
+        width: 35%;
+        float: right;
+    }
+
+    section {
+        background-color: lightpink;
+        height: 600px;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header,footer {
+        height: 200px;
+    }
+
+    section {
+        background: yellowgreen;
+        height: 200px;
+    }
+ }
+

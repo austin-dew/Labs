@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgoldenrodyellow;
+}
+
+header,footer {
+    clear: both;
+    height: 100px;
+}
+
+body > section {
+    height: 600px;
+}
+
+section > section {
+    height: 350px;
+}
+
+section > section:first-child {
+    height: 250px;
+}
+
+article {
+    border: 2px solid cyan;
+}
+
+section > section > article {
+    width: 50%;
+    height: 350px;
+    float: right;
+}
+
+section > section:first-child > article {
+    width: 33.3333%;
+    height: 250px;
+    float: right;
+}
+
